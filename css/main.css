@@ -1,0 +1,55 @@
+.max-width {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: darkslategray;
+    color: white;
+}
+
+.masthead {
+    background-color: cadetblue;
+}
+
+h1 {
+    padding: 8px;
+}
+
+/* Resizes image */
+.fayeimg {
+    /* max-width: 100%; */
+    /* height: auto; */
+    max-width: 150px;
+    padding-bottom: 15px;
+}
+
+/* Adds float to make the text wrapping around the image */
+.intro .fayeimg {
+    float: left;
+    margin-right: 10px;
+}
+
+/* Description list section */
+.list {
+    clear: both;
+    background-color: cadetblue;
+    padding: 8px;
+}
+
+/* Sets the font size to 1.15rem */
+dl {
+    font-size: 1.15rem;
+}
+
+/* Styles the description list with bold text and without any indentation */
+dt {
+    font-weight: bold;
+    font-size: inherit;
+}
+
+dd {
+    display: block;
+    margin-left: 0;
+    margin-bottom: 8px;
+}
