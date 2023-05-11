@@ -1,17 +1,21 @@
+/* Setting max-width to 1200px */
 .max-width {
     max-width: 1200px;
     margin: 0 auto;
 }
 
+/* Adding background color for the HTML*/
 body {
     background-color: darkslategray;
     color: white;
 }
 
+/* Adding background color for the heading */
 .masthead {
     background-color: cadetblue;
 }
 
+/* Adding space for the header */
 h1 {
     padding: 8px;
 }
